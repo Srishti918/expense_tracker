@@ -16,21 +16,19 @@ Features
 
 Functional Requirements
 
-**Functional Requirements for the Expense Tracker Web Application:**
+1. Add Expense Form: Provides a form where users can input the title, amount, and date of an expense. All fields are required and are validated to ensure no missing information.
 
-1. Add Expense Form: Provide a form where users can input the title, amount, and date of an expense. All fields are required and must be validated to ensure no missing information.
+2. Add Income Form: Provides a field where users can add a balance to their wallet. This allows users to increase their available wallet funds.
 
-2. Add Income Form: Provide a field where users can add a balance to their wallet. This allows users to increase their available wallet funds.
+3. Expense List: Displays a list of all recorded expenses with options to edit or delete each entry, enabling users to manage their expenses efficiently.
 
-3. Expense List: Display a list of all recorded expenses with options to edit or delete each entry, enabling users to manage their expenses efficiently.
+4. Expense Summary: Shows a visual summary of total expenses, presented in a pie chart that illustrates the proportion spent in each category.
 
-4. Expense Summary: Show a visual summary of total expenses, presented in a pie chart that illustrates the proportion spent in each category.
+5. Expense Trends: Provides a bar chart displaying the trends in user spending based on categories, allowing users to easily analyze how their spending changes over time.
 
-5. Expense Trends: Provide a bar chart displaying the trends in user spending based on categories, allowing users to easily analyze how their spending changes over time.
+6. Edit/Delete: Allows users to edit or delete existing expenses. This feature provides flexibility to make adjustments as needed.
 
-6. Edit/Delete: Allow users to edit or delete existing expenses. This feature provides flexibility to make adjustments as needed.
-
-7. Responsive Design: Ensure the application is fully responsive, providing an optimal user experience across various devices, including desktops, tablets, and smartphones.
+7. Responsive Design: Ensures the application is fully responsive, providing an optimal user experience across various devices, including desktops, tablets, and smartphones.
 
 Technologies Used
 
@@ -41,11 +39,11 @@ Styling: Plain CSS was used.
 
 Additional Pointers
 
-Reusable UI Components: Implement reusable components for UI elements to ensure consistency and ease of maintenance across the application.
+Reusable UI Components: Implements reusable components for UI elements to ensure consistency and ease of maintenance across the application.
 
-Code Quality and Consistency: Maintain high code quality with clear, readable, and consistent coding practices throughout the project.
+Code Quality and Consistency: Maintains high code quality with clear, readable, and consistent coding practices throughout the project.
 
-Design Consistency: Ensure the design follows the provided fonts and color scheme, aligning with the overall visual style and branding.
+Design Consistency: Ensures the design follows the provided fonts and color scheme, aligning with the overall visual style and branding.
 
 This project was bootstrapped with React Vite.
 
@@ -54,6 +52,7 @@ Cloning and Running the Application
 To clone the repository and run the Expense Tracker application locally, follow these steps:
 
 1. Clone the repository from GitHub:
+
 git clone https://github.com/Srishti918/expense_tracker.git
 
 2. Navigate to the Expense Tracker directory:
